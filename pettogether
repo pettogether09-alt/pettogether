@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>계정 삭제 안내 | Pettogether</title>
+  <meta name="description" content="앱 계정 삭제 요청 방법 및 처리 절차 안내 — Google Play Console 요구사항 충족">
+  <style>
+    body{font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;max-width:800px;margin:36px auto;color:#111;line-height:1.6;padding:0 16px;}
+    header{border-bottom:1px solid #eee;padding-bottom:12px;margin-bottom:20px}
+    h1{font-size:1.6rem;margin:0 0 6px}
+    h2{font-size:1.1rem;margin-top:18px}
+    p, li{font-size:1rem}
+    .note{background:#f8f9fb;border-left:4px solid #0366d6;padding:12px;margin:12px 0}
+    footer{margin-top:28px;border-top:1px solid #eee;padding-top:12px;font-size:0.9rem;color:#555}
+    code{background:#f4f4f4;padding:2px 6px;border-radius:4px;font-family:monospace}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>계정 삭제 안내 (Account Deletion Guide)</h1>
+    <p>이 페이지는 Google Play Console의 요구사항에 맞춰, 사용자가 본인의 계정 및 연관 데이터를 삭제할 수 있는 방법을 안내합니다.</p>
+  </header>
+
+  <section id="request">
+    <h2>1. 계정 삭제 요청 방법</h2>
+    <p>계정 삭제를 원하시면 아래 이메일로 요청해 주세요.</p>
+    <p><strong>이메일:</strong> <a href="mailto:Pettogether98@naver.com">Pettogether98@naver.com</a></p>
+    <p>이메일에 반드시 포함해야 할 정보:</p>
+    <ul>
+      <li>앱에서 사용한 계정 ID 또는 가입 이메일</li>
+      <li>본인 확인을 위한 기본 정보(예: 닉네임, 가입 날짜 등)</li>
+      <li>제목 또는 본문에 <code>계정 삭제 요청</code> 또는 <code>Account Deletion Request</code> 명시</li>
+    </ul>
+  </section>
+
+  <section id="process">
+    <h2>2. 처리 절차</h2>
+    <ol>
+      <li>요청 접수 및 본인 확인 절차 수행</li>
+      <li>삭제 가능한 데이터 확인 및 내부 검토</li>
+      <li>서버에서 사용자 계정 및 연관 데이터 삭제 수행</li>
+      <li>삭제 완료 시 안내 이메일 발송</li>
+    </ol>
+    <p class="note"><strong>처리 기간:</strong> 요청 접수 후 최대 <strong>7일 이내</strong> 처리됩니다.</p>
+  </section>
+
+  <section id="deleted-data">
+    <h2>3. 삭제되는 데이터</h2>
+    <p>계정 삭제 시 아래 항목이 영구 삭제됩니다:</p>
+    <ul>
+      <li>사용자 프로필 정보(이름, 닉네임, 프로필 사진 등)</li>
+      <li>앱 내 활동 데이터(게시물, 메시지, 기록 등)</li>
+      <li>서버에 저장된 설정 및 개인화 정보</li>
+      <li>기타 개인식별이 가능한 데이터</li>
+    </ul>
+    <p>단, 관련 법령(회계·세무·보안 등)에 따라 일정 기간 보관해야 하는 데이터는 예외가 될 수 있으며, 해당 경우에는 별도 안내드립니다.</p>
+  </section>
+
+  <section id="important">
+    <h2>4. 유의사항</h2>
+    <ul>
+      <li>계정 삭제는 <strong>되돌릴 수 없습니다.</strong> 삭제 완료 후 동일한 데이터 복구가 불가능합니다.</li>
+      <li>삭제 요청 시 본인 확인을 위해 추가 정보를 요청할 수 있습니다.</li>
+      <li>자동화된 계정 삭제 기능이 있는 경우, 해당 절차에 따라 즉시 삭제가 진행될 수 있습니다.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>5. 기타 문의</h2>
+    <p>개인정보 관련 추가 문의는 아래 이메일로 연락해 주세요.</p>
+    <p><strong>이메일:</strong> <a href="mailto:Pettogether98@naver.com">Pettogether98@naver.com</a></p>
+  </section>
+
+  <footer>
+    <p>문서 최종 수정: <time datetime="2025-11-22">2025-11-22</time></p>
+    <p>본 안내문은 Google Play Console 요구사항을 충족하도록 작성되었습니다.</p>
+  </footer>
+</body>
+</html>
